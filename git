@@ -1,0 +1,23 @@
+Git log:
+  Syntax:
+    git log --oneline commitHash1..commitHash2
+    Example:
+      1. git log --oneline master..HEAD
+        Explanation:
+          This shows all commit logs from branch: master to current branch's HEAD
+      2. git log --oneline shortlog commitHash1..commitHash2
+        Explanation:
+          This shows all commit's short logs from branch: master to current branch's HEAD
+    Source: https://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions
+
+Git diff:
+  Syntax:
+    git diff branch1..branch2
+    example:
+      git diff master..HEAD
+    Explanation:
+      Displays diff between master and current branch
+    Source: https://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions
+
+  
+
