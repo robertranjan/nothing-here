@@ -10,14 +10,18 @@ Git log:
           This shows all commit's short logs from branch: master to current branch's HEAD
     Source: https://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions
 
-Git diff:
+Git diff between branches:
   Syntax:
     git diff branch1..branch2
     example:
-      git diff master..HEAD
-    Explanation:
-      Displays diff between master and current branch
-    Source: https://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions
-
+      1.  git diff master..HEAD
+        Explanation:
+          Displays diff between master and current branch
+        Source: https://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions
+      2. git diff --name-status branch1..branch2
+        Explanation:
+          Displays files names that differs between branchs along with change code.
+          Code: 
+            A -> Added; D -> Deleted; M -> Modified; R/R100 -> Renamed(?)
   
-
+    
